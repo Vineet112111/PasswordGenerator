@@ -112,7 +112,7 @@ export default function App() {
             <input
               type="range"
               min={6}
-              max={32}
+              max={35}
               value={length}
               onChange={(e) => setLength(Number(e.target.value))}
               className="w-full"
